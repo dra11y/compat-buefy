@@ -1,0 +1,19 @@
+{
+  "name": "compat-buefy",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "serve": "parcel serve ./index.html --log-level warn",
+    "build": "parcel build ./index.html --log-level warn"
+  },
+  "dependencies": {
+    "@vue/compat": "^3.2.1",
+    "@vue/compiler-sfc": "^3.2.1",
+    "buefy": "^0.9.8",
+    "bulma": "^0.9.3",
+    "vue": "^3.2.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  }
+}
